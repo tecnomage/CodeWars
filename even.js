@@ -6,10 +6,20 @@
 
 
 var func = function iqTest(numbers){
-    var num = numbers.map(num => parseInt(num))
-    console.log()
-    //console.log(typeof num);
-     //var cada = numbers.map(x. => x% 2);
+    var num=[];
+    
+    for (let i = 0; i < numbers.length; i++) {
+        //num.push(numbers.charAt(i))
+        //"2 4 7 8 10"
+        num.push(parseFloat(numbers.charAt(i)));
+         
+    }
+    
+    console.log(num)
+    //console.log(typeof numbers);
+     
+    //LOGICA DE EXECUCAO
+    //var cada = numbers.map(x. => x% 2);
     //var paridade = numbers.reduce((acc,atual) => acc+=atual) % 2
     //var num = cada.filter(x => x!=paridade);
     
