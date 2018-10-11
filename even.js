@@ -18,7 +18,8 @@ var func = function iqTest(numbers){
     // 1 array é impar
     var somaNumeros = num.reduce((acc,atual) => acc+=atual)>1?2:1; 
     
-    var posicao = somaNumeros>1? numbers.indexOf()
+    //TODO qual posicao do valor dirvegente
+    //var posicao = somaNumeros>1? numbers.indexOf()
     
  //filtrar se é 0 ou se é 1
 // pega a posicao +1 e imprime 
