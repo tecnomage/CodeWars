@@ -4,8 +4,7 @@
 // findUniq([ 0, 0, 0.55, 0, 0 ]) === 0.55
 // It’s guaranteed that array contains more than 3 numbers.
 // The tests contain some very huge arrays, so think about performance.
-var count = [];
-var count = Array.apply(null, Array(6));
+
 
 Array.prototype.unique = function () {
   return this.filter((value, index, self) => {
@@ -18,25 +17,21 @@ Array.prototype.unique = function () {
 
 
 contador = arr => {
+  var contador=[];
+  var unico;
   arr.map((value,index,self) => {
-    if (count[value] == undefined || count[value] == NaN) {
-      console.log("entrou no if");
-      count[value] = 1;
-    }
-    else count[index] + 1;
-    console.log(value)
-    console.log(count[index])
-  })
-  return count
+    contador[value] ? contador[value]++: contador[value]=1;
+    
+   })
+  console.log(contador)
+  return 
 }
 
 
 var unico = (arr => {
   var cont=contador(arr);
-  console.log(count)
-  return arr.unique();
-})
-  //([0,0,0,0,0])
-  ([2, 2, 2, 4, 2, 8])
+  console.log(cont)
+  //return arr.unique();
+})([2, 2, 2, 4, 2])
 
 console.log(unico)
