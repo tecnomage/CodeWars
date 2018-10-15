@@ -11,10 +11,6 @@
 // }
 
 
-//DEVE retornar o indice se x===1
-const indiceUnico= (x,index,self) =>{
-   return x==1 
-}
 
 const freq = function(arr) {
   var a = [], b = [], prev, unico;
@@ -38,16 +34,8 @@ const freq = function(arr) {
 
 var unico = (arr => {
  // var cont=arr.filter(unicos);
-  var nova = [], single=[], numUnico=[];
-  var retorno
-  nova = freq(arr)
-  numUnico = nova[0].map(x=> x);
-  single = nova[1].map(x=> x).findIndex(x=> x==1);
-  //retorno = single.filter(indiceUnico)
-  //console.log(nova)
-  //console.log(single)
- // console.log(retorno)
-  return numUnico[single]
-})([2, 2,2,2,2,3,200,3,3,3,5,5,5,5,5])
+  arr.sort((a,b)=>a-b);
+  return arr[0]==arr[1]?arr.pop():arr[0]
+})([2, 2,2,2,2,3,3,3,3,5,500,5,5,5])
 
 console.log(unico)
