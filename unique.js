@@ -5,33 +5,34 @@
 // It’s guaranteed that array contains more than 3 numbers.
 // The tests contain some very huge arrays, so think about performance.
 
-
-Array.prototype.unique = function () {
-  return this.filter((value, index, self) => {
-    //console.log(value +" "+ index +" "+  self)
-    //console.log(self.indexOf(value))
-    return self.indexOf(value) === index;
-  });
+const unicos = (x,index,self) =>
+{  
+  return self.indexOf(x) === index;
 }
 
+const freq = function(arr) {
+  var a = [], b = [], prev;
 
+  arr.sort();
+  for ( var i = 0; i < arr.length; i++ ) {
+      if ( arr[i] !== prev ) {
+          a.push(arr[i]);
+          b.push(1);
+      } else {
+          b[b.length-1]++;
+      }
+      prev = arr[i];
+  }
 
-contador = arr => {
-  var contador=[];
-  var unico;
-  arr.map((value,index,self) => {
-    contador[value] ? contador[value]++: contador[value]=1;
-    
-   })
-  console.log(contador)
-  return 
+  //
+  return b;
 }
-
 
 var unico = (arr => {
-  var cont=contador(arr);
-  console.log(cont)
-  //return arr.unique();
-})([2, 2, 2, 4, 2])
+  var cont=arr.filter(unicos);
+  var nova = []
+  nova = freq(arr).filter(n => n===1);
+  console.log(nova)
+})([2, 2,0.55,1,2,2,2])
 
 console.log(unico)
