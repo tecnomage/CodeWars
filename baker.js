@@ -1,17 +1,14 @@
-//Compara as entradas retorna o valor do que tem deduzido do necessário
-function CompareRecipeAvaliabe(a, b) {
-    return a - b;
-}
+//https://www.codewars.com/kata/525c65e51bf619685c000059/train/javascript
 
 (function cakes(recipe, available) {
-    var possui, receita, numeroDeBolos = 0, Qtdereceita;
+    var possui, receita; 
 
     var QtdeIngredientesDisponiveis = Object.keys(available).length;
     var QtdeIngredientesReceita = Object.keys(recipe).length;
 
     var Qtdereceita = Object.values(recipe);
     var QtdeDisponivel = Object.values(available);
-    var sobrou = [];
+    
     //QtdeDisponivel.reduce((x, acc) => acc += x);
 
 
@@ -24,10 +21,11 @@ function CompareRecipeAvaliabe(a, b) {
             return x / (Qtdereceita[index])
         })
 
-        possui.filter(x => x>0)
+       possui = possui.filter(x => x != 0)
         possui.sort();
         // item1 ingredientes/ item1 receita qntos bolos podem ser feitos
         //REDUZIR O VALOR DE CADA VALUE DO OBJ
-    console.log(QtdeDisponivel);
-    return numeroDeBolos;
+   
+    //NAO ESTÁ FUNCIONANDO POIS OS INGREDIENTES DA RECEITA E DISP PODEM VIR EM ORDEM DIVERSAS
+    return parseInt(Number(possui[0]))
 })({ flour: 500, sugar: 200, eggs: 1 }, { flour: 1200, sugar: 1200, eggs: 5, milk: 200 })
