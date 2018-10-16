@@ -1,30 +1,33 @@
-// Pete likes to bake some cakes. He has some recipes and ingredients. 
-// Unfortunately he is not good in maths. Can you help him to find out, 
-// how many cakes he could bake considering his recipes?
-// Write a function cakes(), which takes the recipe (object) 
-// and the available ingredients (also an object) and returns the maximum number
-// of cakes Pete can bake (integer). 
-// For simplicity there are no units for the amounts 
-// (e.g. 1 lb of flour or 200 g of sugar are simply 1 or 200). 
-// Ingredients that are not present in the objects, can be considered as 0.
+//Compara as entradas retorna o valor do que tem deduzido do necessário
+function CompareRecipeAvaliabe(a, b) {
+    return a - b;
+}
 
-// must return 2
-// cakes({flour: 500, sugar: 200, eggs: 1}, {flour: 1200, sugar: 1200, eggs: 5, milk: 200}); 
-// // must return 0
-// cakes({apples: 3, flour: 300, sugar: 150, milk: 100, oil: 100}, {sugar: 500, flour: 2000, milk: 2000});
-// ALGORITHMS
+(function cakes(recipe, available) {
+    var possui, receita, numeroDeBolos = 0, Qtdereceita;
 
-// Poweredby_qualified
-// Solution:
+    var QtdeIngredientesDisponiveis = Object.keys(available).length;
+    var QtdeIngredientesReceita = Object.keys(recipe).length;
 
-// function cakes(recipe, available) {
-//   // TODO: insert code
-// }
-// function cakes(recipe, available) {
-//   // TODO: insert code
-// }
+    var Qtdereceita = Object.values(recipe);
+    var QtdeDisponivel = Object.values(available);
+    var sobrou = [];
+    //QtdeDisponivel.reduce((x, acc) => acc += x);
 
 
-function cakes(recipe, available) {
-    // TODO: insert code
-  }
+    if (QtdeIngredientesDisponiveis - QtdeIngredientesReceita < 0) return 0;
+
+    
+      possui = QtdeDisponivel.map((x, index, arr) => {
+            // if (index === (arr.length - 1))
+            if ((Qtdereceita[index]) == undefined) return 0
+            return x / (Qtdereceita[index])
+        })
+
+        possui.filter(x => x>0)
+        possui.sort();
+        // item1 ingredientes/ item1 receita qntos bolos podem ser feitos
+        //REDUZIR O VALOR DE CADA VALUE DO OBJ
+    console.log(QtdeDisponivel);
+    return numeroDeBolos;
+})({ flour: 500, sugar: 200, eggs: 1 }, { flour: 1200, sugar: 1200, eggs: 5, milk: 200 })
