@@ -8,8 +8,8 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "bolo",
-            "program": "${workspaceFolder}/baker.js"
+            "name": "ordem",
+            "program": "${workspaceFolder}/subarraySum.js"
         }
     ]
 }
