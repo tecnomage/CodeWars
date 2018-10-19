@@ -19,3 +19,7 @@ var bit2 = [3,3,4,3,4,1,1]
 
 console.log(bit)
 console.log(bit2.reduce((x,s)=> x^s))
+
+///:::::::::::::::::::
+// ::::::::::usando reduce e 2 filters
+//////
