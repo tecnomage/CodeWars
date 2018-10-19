@@ -4,14 +4,14 @@
 //list or array is also a valid sublist/subarray.
 
 //https://www.codewars.com/kata/54521e9ec8e60bc4de000d6c/train/javascript
-var maxSequence = function(arr){
-  var currentSum = 0;
-  return arr.reduce(function(maxSum, number){
-      currentSum = Math.max(currentSum+number, 0);
-      return Math.max(currentSum, maxSum);
-  }, 0);
+// var maxSequence = function(arr){
+//   var currentSum = 0;
+//   return arr.reduce(function(maxSum, number){
+//       currentSum = Math.max(currentSum+number, 0);
+//       return Math.max(currentSum, maxSum);
+//   }, 0);
 
-}
+// }
 
 
 //The maximum sum subarray problem consists 
@@ -19,7 +19,18 @@ var maxSequence = function(arr){
 //(maxSequence([]), 0
 //maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4]), 6  [4, -1, 2, 1]
 
-console.log(maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4])); 
+var maxSequence = function(arr){
+  var min = 0, ans = 0, i, sum = 0;
+  for (i = 0; i < arr.length; ++i) {
+    sum += arr[i];
+    min = Math.min(sum, min);
+    ans = Math.max(ans, sum - min);
+  }
+  return ans;
+}
+
+console.log(maxSequence([5, 1, 2, -1,-2,5,3])); 
+//console.log(maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4])); 
 
 
 // var maxSequence = function(arr){
@@ -40,12 +51,3 @@ console.log(maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4]));
 
 
 
-// var maxSequence = function(arr){
-//   var min = 0, ans = 0, i, sum = 0;
-//   for (i = 0; i < arr.length; ++i) {
-//     sum += arr[i];
-//     min = Math.min(sum, min);
-//     ans = Math.max(ans, sum - min);
-//   }
-//   return ans;
-// }

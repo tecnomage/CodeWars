@@ -10,6 +10,18 @@
             "request": "launch",
             "name": "ordem",
             "program": "${workspaceFolder}/subarraySum.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Seq Maxima",
+            "program": "${workspaceFolder}/subarraySum.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "find odd",
+            "program": "${workspaceFolder}/findOdd.JS"
         }
     ]
 }
