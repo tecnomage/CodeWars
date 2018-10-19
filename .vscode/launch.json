@@ -4,17 +4,29 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/unique.js"
+            "name": "ordem",
+            "program": "${workspaceFolder}/subarraySum.js"
         },
         {
             "type": "node",
             "request": "launch",
+<<<<<<< HEAD
             "name": "BAKER",
             "program": "${workspaceFolder}/baker.js"
+=======
+            "name": "Seq Maxima",
+            "program": "${workspaceFolder}/subarraySum.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "find odd",
+            "program": "${workspaceFolder}/findOdd.JS"
+>>>>>>> e35a26fba0d22b5aa6f44e2618fca6687c8a4a02
         }
     ]
 }

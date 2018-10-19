@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //https://www.codewars.com/kata/pete-the-baker/javascript
 
 // Pete likes to bake some cakes. He has some recipes and ingredients. 
@@ -39,3 +40,19 @@
 
 
   })({flour: 500, sugar: 200, eggs: 1}, {flour: 1200, sugar: 1200, eggs: 5, milk: 200})
+=======
+function cakes(recipe, available) {
+    // TODO: insert code
+    var result = [];
+    for (var prop in recipe) {
+        var availableProp = available[prop] || 0;
+        var recipeProp = recipe[prop] || 0;
+        //console.log('availableProp:' + availableProp);
+        //console.log('recipeProp:' + recipeProp);
+        if (recipeProp > 0) {
+            result.push(Math.floor(availableProp / recipeProp));
+        }
+    }
+    return Math.min.apply(Math, result);
+}
+>>>>>>> e35a26fba0d22b5aa6f44e2618fca6687c8a4a02
