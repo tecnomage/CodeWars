@@ -14,10 +14,6 @@
         {
             "type": "node",
             "request": "launch",
-<<<<<<< HEAD
-            "name": "BAKER",
-            "program": "${workspaceFolder}/baker.js"
-=======
             "name": "Seq Maxima",
             "program": "${workspaceFolder}/subarraySum.js"
         },
@@ -26,7 +22,6 @@
             "request": "launch",
             "name": "find odd",
             "program": "${workspaceFolder}/findOdd.JS"
->>>>>>> e35a26fba0d22b5aa6f44e2618fca6687c8a4a02
         }
     ]
 }
