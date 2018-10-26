@@ -27,7 +27,7 @@ function filtra(arr){
 }
 
 var N = [3,4,3,3,3,4,4,6,6]
-var N = [3,4,2,6]
+//var N = [3,4,2,6]
 var filtrado;
 // ------------->FILTER SEMPRE RETORNA UM ARRAY---------------------
 filtrado = N.filter(n => n + filtra(N)[0] > 6)
