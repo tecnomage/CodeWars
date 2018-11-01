@@ -20,8 +20,8 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "find odd",
-            "program": "${workspaceFolder}/findOdd.JS"
+            "name": "getMiddle",
+            "program": "${workspaceFolder}/getMiddle.js"
         }
     ]
 }
