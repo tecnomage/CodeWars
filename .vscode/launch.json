@@ -20,8 +20,8 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "getMiddle",
-            "program": "${workspaceFolder}/getMiddle.js"
+            "name": "codekata",
+            "program": "${workspaceFolder}/vowelBack.js"
         }
     ]
 }
