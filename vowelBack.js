@@ -18,7 +18,7 @@
         original = char.charCodeAt(0);
         cod = char.charCodeAt(0);
 
-        //EXCEPTIONS VEM AQUI, A
+       //TODO descobrir onde devem ir as exceptions
         if (cod === 97 || cod === 101 || cod === 105 || cod === 111 || cod === 117) {
             cod += 9
         }
@@ -30,26 +30,15 @@
         //cod = verificaExceptions(cod,original)
         str.push(String.fromCharCode(cod))
 
-    function verificaExceptions(cod, original) {
-        //TODO tem como verificar a letra em vez do ascii
-        if (cod === 97)
-            return 2
-
+    
 
     }
-
-    function foraDoAlfabeto(n) {
-        var abaixo, acima
-        abaixo = n < 97
-        acima = n > 122
-        if (abaixo) n = 122
-        if (acima) n = 97
-
-    }
-
 
     console.log(str)
 })("te")
+
+
+
 
 
 function foraDoAlfabeto(n) {
@@ -57,7 +46,8 @@ function foraDoAlfabeto(n) {
     return fora;
 }
 
-
+//TODO
+//verificar exceptions antes das regras gerais
 function verificaExceptions(cod, original) {
     //TODO colocar isso fora, é outra exception   
     // if (cod === 99 || cod === 111) {
@@ -69,6 +59,4 @@ function verificaExceptions(cod, original) {
     return cod;
 
 }
-
-
 
