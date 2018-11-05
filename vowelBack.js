@@ -11,8 +11,8 @@
 
         original = char.charCodeAt(0);
         cod = char.charCodeAt(0);
-       
 
+        //EXCEPTIONS VEM AQUI, A
         if (cod === 97 || cod === 101 || cod === 105 || cod === 111 || cod === 117) {
             cod += 9
         }
@@ -28,30 +28,27 @@
     }
 
 
-    function foraDoAlfabeto(n) {
-        var fora = n < 97 || n > 122 ? true : false;
-        return fora;
-    }
-
     console.log(str)
 })("te")
 
 
+function foraDoAlfabeto(n) {
+    var fora = n < 97 || n > 122 ? true : false;
+    return fora;
+}
+
+
 function verificaExceptions(cod, original) {
-     //TODO colocar isso fora, é outra exception   
+    //TODO colocar isso fora, é outra exception   
     // if (cod === 99 || cod === 111) {
     //     cod -= 1;
     // }
-        if (cod === 99 || cod === 111 || cod === 100 || cod === 101)
-            cod = original;
+    if (cod === 99 || cod === 111 || cod === 100 || cod === 101)
+        cod = original;
 
     return cod;
 
 }
-
-//"\n".charCodeAt(0);
-//a e i o u 
-//
 
 
 
