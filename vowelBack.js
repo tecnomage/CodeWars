@@ -38,11 +38,12 @@
 
 
 function verificaExceptions(cod, original) {
-    if (cod === 99 || cod === 111) {
-        cod -= 1;
+     //TODO colocar isso fora, é outra exception   
+    // if (cod === 99 || cod === 111) {
+    //     cod -= 1;
+    // }
         if (cod === 99 || cod === 111 || cod === 100 || cod === 101)
             cod = original;
-    }
 
     return cod;
 

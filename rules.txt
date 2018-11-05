@@ -1,5 +1,7 @@
-----> teste 
-"testcase"), "tabtbvba
+-----> TESTCASES
+Test.assertSimilar(vowelBack("testcase"), "tabtbvba");
+Test.assertSimilar(vowelBack("codewars"), "bnaafvab");
+Test.assertSimilar(vowelBack("exampletesthere"), "agvvyuatabtqaaa");
 
 // https://www.codewars.com/kata/vowels-back/train/javascript
 // You need to play around with the provided string (s).
