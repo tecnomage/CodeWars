@@ -1,35 +1,44 @@
 (function vowelBack(s) {
 
-    var str=[];
+    var str = [];
     var tamanho = s.length
+    
+    //TODO
+    // Verificar se está entre 97 e 122
+    // Se não
+    // Se menor q 97...
+    // Se maior q 122 => diferenca= cod atual - 122 then 122 - diferenca
 
     //novoArray.toLowerCase();
-    //consoantes +9
     
+
     //TODO verificar se o resultado da soma esta dentro do alfabeto ou algo do tipo
 
-    for (let i=0; i <= s.length - 1; i++) {
-        var cod,char;
-        char=s.charAt(i).toLowerCase();
-        //i>0 cod esta retornando NaN
-        cod = char.charCodeAt(i)
-        if (char.charCodeAt(i) === 99 || char.charCodeAt(i) === 111)
-            cod - 1
-        if (char.charCodeAt(i) === 100)
-            cod  - 3
+    for (let i = 0; i < s.length; i++) {
+        var cod, original;
+        char = s.charAt(i).toLowerCase();
 
-        if (char.charCodeAt(i) === 97 || 101 || 105 || 111 || 117) {
-            cod + 9
+        original, cod = s.charCodeAt(i)
+        if (cod === 99 || cod === 111)
+            //TODO alterar isso aqui em todos
+            cod = cod - 1
+        if (cod === 100)
+            cod -= 3
+        //extrair esses ifs para metodos
+        //verificaConsoante
+        if (cod === 97 || cod === 101 || cod === 105 || cod === 111 || cod === 117) {
+            cod += 9
             if (cod === 99 || 111) {
-                cod - 1
+                cod -= 1
             } else if (cod === 100) {
-                cod - 3
+                cod -= 3
             }
         }
         else {
-            cod = char.charCodeAt(i) - 5
+            cod -= 5
+            verificaExceptions(cod, original)
         }
-        
+
         str.push(String.fromCharCode(cod))
 
         //     //limite alfabeto tabela  ascii
@@ -37,10 +46,22 @@
         //     // inferior 97  (a)
     }
 
+    function verificaExceptions(cod, original) {
+        //TODO tem como verificar a letra em vez do ascii
+        if (cod === 97)
+            return 2
 
-    function foraDoAlfabeto(n){
-        var fora= n < 97 || n > 122? true : false;
-        return fora;
+
+    }
+
+    function foraDoAlfabeto(n) {
+        var abaixo, acima
+        abaixo = n < 97
+        acima = n > 122
+        if (abaixo) n = 122
+        if (acima) n = 97
+
+        return n;
     }
 
     // var char = s[0]
@@ -48,22 +69,12 @@
     // var char2 = char.charCodeAt(0) + 10
     // console.log(char2);
     console.log(str)
-})("aa")
+})("te")
 
 
 //"\n".charCodeAt(0);
 //a e i o u 
-//
 
-
-
-// https://www.codewars.com/kata/vowels-back/train/javascript
-// You need to play around with the provided string (s).
-// Move consonants forward 9 places through the alphabet. If they pass 'z', start again at 'a'.
-// Move vowels back 5 places through the alphabet. If they pass 'a', start again at 'z'.
-
-
-// Exceptions:
-// 1-> If the character is 'c' or 'o', move it back 1 place. For 'd' move it back 3, and for 'e', move it back 4.
-// 2-> If a moved letter becomes 'c', 'o', 'd' or 'e', revert it back to it's original value.
-// 3-> Provided string will always be lower case, won't be empty and will have no special characters.
+//function isASCII(str) {
+//     return /^[\x00-\x7F]*$/.test(str);
+// }
