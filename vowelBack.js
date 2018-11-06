@@ -3,60 +3,90 @@
     var str = [];
     //str= s.split("");
     var tamanho = s.length
-    
-    //TODO
-    // Verificar se está entre 97 e 122
-    // Se não
-    // Se menor q 97...
-    // Se maior q 122 => diferenca= cod atual - 122 then 122 - diferenca
 
-
+    console.log(s)
     for (let i = 0; i < s.length; i++) {
-        var cod, original, char;
-        char = s[i].toLowerCase();
+        this.cod;
+        this.original;
+        var verificaSemoved = verificaMoved.bind(this);
+        var verificaAlfabeto = verificaSeAlfabeto.bind(this)
+        var char;
 
+        char = s[i].toLowerCase();
         original = char.charCodeAt(0);
         cod = char.charCodeAt(0);
 
-       //TODO descobrir onde devem ir as exceptions
-        if (cod === 97 || cod === 101 || cod === 105 || cod === 111 || cod === 117) {
-            cod += 9
+        var teste = verificaExceptions.bind(this)
+        var verifica = teste();
+        if (verifica) {
+            verificaSemoved();
+            str.push(String.fromCharCode(cod))
+            continue;
+        }
+        //TODO se executar alteraçao no cod verifica exception
+        // deve pular o if seguinte
+        if (cod === 97 || cod === 105 || cod === 111 || cod === 117) {
+            cod -= 5
+           
         }
         else {
-            cod -= 5
+            cod += 9
+           
         }
 
-        cod = verificaExceptions(cod, original)
-        //cod = verificaExceptions(cod,original)
+        verificaSemoved();
         str.push(String.fromCharCode(cod))
 
-    
+
 
     }
 
     console.log(str)
-})("te")
+})("test")
 
 
-
-
-
-function foraDoAlfabeto(n) {
-    var fora = n < 97 || n > 122 ? true : false;
+function verificaSeAlfabeto() {
+    let dif;
+    if (this.cod > 122) {
+        dif = 122 - this.cod;
+        return this.cod = 97 + dif;
+    } else if (this.cod < 97) {
+        dif = 97 - this.cod
+        return 122 - dif;
+    }
     return fora;
 }
 
-//TODO
-//verificar exceptions antes das regras gerais
-function verificaExceptions(cod, original) {
+
+//cod, original
+function verificaExceptions() {
     //TODO colocar isso fora, é outra exception   
-    // if (cod === 99 || cod === 111) {
-    //     cod -= 1;
-    // }
-    if (cod === 99 || cod === 111 || cod === 100 || cod === 101)
-        cod = original;
+    // // if (cod === 99 || cod === 111) {
+    // //     cod -= 1;
+    // // }
+    if (this.cod === 101) {
+        this.cod -= 4;
+        return true;
+    } else if (this.cod === 99 || this.cod === 111) {
+        this.cod -= 1;
+        return true;
+    }
+    else if (this.cod === 100) {
+        this.cod -= 3;
+        return true;
+    }
 
-    return cod;
 
+    // if (cod === 99 || cod === 111 || cod === 100 || cod === 101)
+    //     cod = original;
+    return false;
+}
+
+function verificaMoved() {
+    //c ,o , d , e
+    if (this.cod === 99 || this.cod === 111
+        || this.cod === 100 || this.cod === 101) {
+        this.cod = this.original
+    }
 }
 
