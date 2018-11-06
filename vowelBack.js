@@ -23,15 +23,16 @@
             str.push(String.fromCharCode(cod))
             continue;
         }
-        //TODO se executar alteraçao no cod verifica exception
-        // deve pular o if seguinte
+       
         if (cod === 97 || cod === 105 || cod === 111 || cod === 117) {
             cod -= 5
-           
+            verificaAlfabeto();
+            verificaSemoved();
         }
         else {
             cod += 9
-           
+            verificaAlfabeto();
+            verificaSemoved();
         }
 
         verificaSemoved();
@@ -48,7 +49,7 @@
 function verificaSeAlfabeto() {
     let dif;
     if (this.cod > 122) {
-        dif = 122 - this.cod;
+        dif = this.cod - 122;
         return this.cod = 97 + dif;
     } else if (this.cod < 97) {
         dif = 97 - this.cod
