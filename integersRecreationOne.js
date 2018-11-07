@@ -14,3 +14,7 @@ Given two integers m, n (1 <= m <= n)
 
  //list_squared(1, 250) --> [[1, 1], [42, 2500], [246, 84100]]
 //list_squared(42, 250) --> [[42, 2500], [246, 84100]]
+
+1o achar os divisores entre os numeros
+fazer o quadrado
+
