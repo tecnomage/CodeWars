@@ -28,8 +28,11 @@
             cod -= 5
             verificaAlfabeto();
             verificaSemoved();
+            str.push(String.fromCharCode(cod))
+            continue;
         }
         else {
+            //FIXME no 's' entra aqui
             cod += 9
             verificaAlfabeto();
             verificaSemoved();
@@ -53,7 +56,9 @@ function verificaSeAlfabeto() {
         return this.cod = 96 + dif;
     } else if (this.cod < 97) {
         dif = 97 - this.cod
-        return 122 - dif;
+        //TODO na letra a === 117(u) 
+        //nao esta verificando o alfabeto de a
+        return 123 - dif;
     }
     return fora;
 }
@@ -61,10 +66,7 @@ function verificaSeAlfabeto() {
 
 //cod, original
 function verificaExceptions() {
-    //TODO colocar isso fora, é outra exception   
-    // // if (cod === 99 || cod === 111) {
-    // //     cod -= 1;
-    // // }
+    
     if (this.cod === 101) {
         this.cod -= 4;
         return true;
