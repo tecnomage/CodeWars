@@ -12,7 +12,7 @@
         var verificaAlfabeto = verificaSeAlfabeto.bind(this)
         var char;
 
-        char = s[i].toLowerCase();
+        char = s[i].toLowerCase(); 
         original = char.charCodeAt(0);
         cod = char.charCodeAt(0);
 
