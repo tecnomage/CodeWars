@@ -8,22 +8,22 @@
     for (let i = 0; i < s.length; i++) {
         this.cod;
         this.original;
-        var verificaSemoved = verificaMoved.bind(this);
-        var verificaAlfabeto = verificaSeAlfabeto.bind(this)
-        var char;
+        let verificaSemoved = verificaMoved.bind(this);
+        let verificaAlfabeto = verificaSeAlfabeto.bind(this)
+        let char;
 
-        char = s[i].toLowerCase(); 
+        char = s[i].toLowerCase();
         original = char.charCodeAt(0);
         cod = char.charCodeAt(0);
 
-        var teste = verificaExceptions.bind(this)
-        var verifica = teste();
+        var testeExceptions = verificaExceptions.bind(this)
+        var verifica = testeExceptions();
         if (verifica) {
             verificaSemoved();
             str.push(String.fromCharCode(cod))
             continue;
         }
-       
+
         if (cod === 97 || cod === 105 || cod === 111 || cod === 117) {
             cod -= 5
             verificaAlfabeto();
@@ -35,16 +35,14 @@
             verificaSemoved();
         }
 
-        //verificaSemoved();
-        str.push(String.fromCharCode(cod))
-
-
+      str.push(String.fromCharCode(cod))
 
     }
 
-    console.log(str)
-})("testcase")
-
+    console.log(str.toString())
+})("exampletesthere")
+//("codewars")
+//("testcase")
 
 function verificaSeAlfabeto() {
     let dif;
@@ -53,18 +51,15 @@ function verificaSeAlfabeto() {
         return this.cod = 96 + dif;
     } else if (this.cod < 97) {
         dif = 96 - this.cod
-        return 122 - dif;
+        return this.cod = 122 - dif;
     }
-    return fora;
+
 }
 
 
 //cod, original
 function verificaExceptions() {
-    //TODO colocar isso fora, é outra exception   
-    // // if (cod === 99 || cod === 111) {
-    // //     cod -= 1;
-    // // }
+   
     if (this.cod === 101) {
         this.cod -= 4;
         return true;
