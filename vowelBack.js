@@ -35,7 +35,7 @@
             verificaSemoved();
         }
 
-        verificaSemoved();
+        //verificaSemoved();
         str.push(String.fromCharCode(cod))
 
 
@@ -43,14 +43,14 @@
     }
 
     console.log(str)
-})("test")
+})("testcase")
 
 
 function verificaSeAlfabeto() {
     let dif;
     if (this.cod > 122) {
         dif = this.cod - 122;
-        return this.cod = 97 + dif;
+        return this.cod = 96 + dif;
     } else if (this.cod < 97) {
         dif = 97 - this.cod
         return 122 - dif;
