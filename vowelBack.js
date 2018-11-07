@@ -52,7 +52,7 @@ function verificaSeAlfabeto() {
         dif = this.cod - 122;
         return this.cod = 96 + dif;
     } else if (this.cod < 97) {
-        dif = 97 - this.cod
+        dif = 96 - this.cod
         return 122 - dif;
     }
     return fora;
