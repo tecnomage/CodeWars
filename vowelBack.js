@@ -38,8 +38,8 @@
       str.push(String.fromCharCode(cod))
 
     }
-
-    console.log(str.toString())
+    //console.log(str.join(''))
+    return str.join('');
 })("exampletesthere")
 //("codewars")
 //("testcase")
