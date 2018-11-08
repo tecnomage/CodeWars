@@ -21,7 +21,7 @@
             "type": "node",
             "request": "launch",
             "name": "codekata",
-            "program": "${workspaceFolder}/vowelBack.js"
+            "program": "${workspaceFolder}/integerRecreation.js"
         }
     ]
 }

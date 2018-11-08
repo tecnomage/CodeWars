@@ -1,6 +1,6 @@
 
 
-
+https://www.codewars.com/kata/55aa075506463dac6600010d/train/javascript
 
 
 Divisors of 42 are : 1, 2, 3, 6, 7, 14, 21, 42. 
