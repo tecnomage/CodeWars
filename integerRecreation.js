@@ -12,29 +12,37 @@
     for (let i = m; i <= n + 1; i++) {
 
         //TODO VERIFICAR SE ESTA INSERINDO TODOS NUMEROS CORRETOS
-        if (n % i === 0) {
-            let raiz, ok; 
-            let quadrado = Math.pow(i, 2)
-            soma = soma + i*i;
-                     
-            lista.push(quadrado);
-            
-            //FIXME nao está calculando a raiz corretamente
-             ok = Number.isInteger(Math.sqrt(soma));
+        soma = getDivisors(i).reduce((soma,n)=> soma + n * n)
+        let raiz, ok;
+        let quadrado = Math.pow(i, 2)
 
-            if (ok) {
-                saida.push([i, soma]);
-            }
+        lista.push(quadrado);
+
+        //FIXME nao está calculando a raiz corretamente
+        ok = Number.isInteger(Math.sqrt(soma));
+
+        if (ok) {
+            saida.push([i, soma]);
         }
 
     }
-    
     console.log(saida)
-
-    //TODO parsear a lista para verificar os roots
-
 })(1, 250)
 
+
+function getDivisors(n) {
+    var divisors = [];
+
+    for (var i = 1; i <= n / 2; ++i) {
+        if (n % i) {
+            continue;
+        }
+
+        divisors.push(i);
+    }
+
+    return divisors.concat([n])
+}
 //list_squared(1, 250) --> [[1, 1], [42, 2500], [246, 84100]]
 //list_squared(42, 250) --> [[42, 2500], [246, 84100]]
 
