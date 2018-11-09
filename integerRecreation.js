@@ -2,31 +2,61 @@
 //Math.sqrt(n)
 
 // we want to find all integers between
-// m and n whose sum of
-// squared divisors is itself a square. 
+// m and n whose sum of  squared divisors is itself a square. 
 
 (function listSquared(m, n) {
+    let listaquadrado = [];
     let lista = [];
     let soma = 0;
     let saida = [];
-    for (let i = m; i <= n; i++) {
-        //é possível que o erro esteja nesse if
+    for (let i = m; i <= n + 1; i++) {
+
+        //TODO VERIFICAR SE ESTA INSERINDO TODOS NUMEROS CORRETOS
         if (n % i === 0) {
-            let raiz;
+            let raiz, ok; 
             let quadrado = Math.pow(i, 2)
+            soma = soma + i*i;
+                     
             lista.push(quadrado);
-            soma += quadrado;
             
-            //Math.sqrt();
-            raiz = quadradoç
-            if (raiz !== NaN && Number.isInteger(raiz)) {
-                saida.push(Math.sqrt(soma));
+            //FIXME nao está calculando a raiz corretamente
+             ok = Number.isInteger(Math.sqrt(soma));
+
+            if (ok) {
+                saida.push([i, soma]);
             }
         }
 
     }
-    console.log(soma)
+    
     console.log(saida)
+
     //TODO parsear a lista para verificar os roots
 
-})(42, 250)
+})(1, 250)
+
+//list_squared(1, 250) --> [[1, 1], [42, 2500], [246, 84100]]
+//list_squared(42, 250) --> [[42, 2500], [246, 84100]]
+
+
+// https://www.codewars.com/kata/55aa075506463dac6600010d/train/javascript
+
+
+// Divisors of 42 are : 1, 2, 3, 6, 7, 14, 21, 42. 
+// These divisors squared are: 1, 4, 9, 36, 49, 196, 441, 1764. 
+// The sum of the squared divisors is 2500 which is 50 * 50, a square!
+// Given two integers m, n (1 <= m <= n)
+// --> we want to find all integers between m and n whose sum of
+//  squared divisors is itself a square. 
+// 42 is such a number. The result will be an array of arrays or of tuples 
+// (in C an array of Pair) or a string, each subarray having two elements,
+//  first the number whose squared divisors is a square and then
+//   the sum of the squared divisors.
+//                                       divisores , soma
+//  //list_squared(1, 250) --> [[1, 1], [42, 2500], [246, 84100]]
+// //list_squared(42, 250) --> [[42, 2500], [246, 84100]]
+
+// 1o achar os divisores entre os numeros
+// fazer o quadrado
+
+
