@@ -1,4 +1,5 @@
 (function convertFrac(lst) {
+<<<<<<< HEAD
   var denominadores;
   let numeradores, deno, saida = [];
   //let LCD = lcd.bind(this);
@@ -23,6 +24,44 @@ function lcd(arr) {
     arr = arr / n
   }
   return divisor;
+=======
+    var denominadores, deno, numeradores;
+    //let LCD = lcd.bind(this);
+    denominadores = lst.map(x => x[1])
+    var deno = denominadores.reduce((acc, atual) => acc *= atual)
+    console.log(deno)
+    console.log(denominadores)
+    var teste = gcd_rec(2,5)
+    console.log(teste)
+})([[1, 2], [1, 3], [1, 4]])
+
+function lcd(arr) {
+    var divisor = [];
+    var n = 2;
+
+    while (arr >= n) {
+        if (arr % n === 0) {
+            divisor.push(n)
+            arr = arr / n;
+        } else {
+            n++
+        }
+    }
+    
+
+
+    //divisor.reduce((acc, n) => acc = acc + n);
+    return divisor;
+}
+
+
+function gcd_rec(a, b) {
+    if (b) {
+        return gcd_rec(b, a % b);
+    } else {
+        return Math.abs(a);
+    }
+>>>>>>> 0ae69e62452abb8b9ca63a3e8d0881f9279a1715
 }
 
 
