@@ -4,29 +4,34 @@
   denominadores = lst.map(x => x[1])
   var deno = denominadores.reduce((acc, atual) => acc *= atual)
   //TODO alterar para pegar todos denominadores
-  var teste = lcm_two_numbers(2,3,4)
+  var teste = lcm(deno,[2,3,4])
+  console.log(deno)
   console.log(teste)
 })([[1, 2], [1, 3], [1, 4]])
 
 //TODO alterar para aceitar mais que 2 parametros
-function lcm_two_numbers(...n) {
-  //TODO retorna falso pq nao eh numero
-  if ((typeof x !== 'number') || (typeof y !== 'number'))
+function lcm(soma,...n) {
+    
+  if (typeof n !== 'object')
     return false;
-  return (!x || !y) ? 0 :
-    Math.abs((n) / gcd_two_numbers(x, y));
+  return (!soma) ? 0 :
+    Math.abs((soma) / gcd(n));
 }
 
 //TODO alterar para aceitar mais que 2 parametros
-function gcd_two_numbers(...args) {
+function gcd(...args) {
   x = Math.abs(x);
   y = Math.abs(y);
-  for (let i; i < args.length; i++) {
-    while (y) {
-      var t = y;
-      y = x % y;
-      x = t;
-    }
-  }
+  var div = args.reduce((acc,n)=>{
+    while
+  })
+ 
   return x;
 }
+
+  //  while (y) {
+  //     var t = y;
+  //     y = x % y;
+  //     x = t;
+   
+  // }

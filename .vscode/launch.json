@@ -26,6 +26,12 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "teste 2",
+            "program": "${workspaceFolder}/teste2.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "sqrt",
             "program": "${workspaceFolder}/sqrt.js"
         }
