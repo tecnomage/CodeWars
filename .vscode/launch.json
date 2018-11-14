@@ -26,8 +26,8 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "teste 2",
-            "program": "${workspaceFolder}/teste2.js"
+            "name": "teste reduce",
+            "program": "${workspaceFolder}/teste.js"
         },
         {
             "type": "node",
