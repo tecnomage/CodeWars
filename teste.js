@@ -8,7 +8,14 @@ console.log(teste.reduce(soma));
 
 
 
-function soma(a,b){
+function soma(a,b,c){
     
-    return a+b
+    return a+b+c 
 }
+
+
+var numeradores = [3,4,5,6,7] 
+const deno = 60
+const reescrita = d => e => e * d
+
+const num = numeradores.map(reescrita(deno))
