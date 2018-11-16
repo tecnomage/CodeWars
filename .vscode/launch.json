@@ -4,17 +4,10 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
             "type": "node",
             "request": "launch",
             "name": "ordem",
-            "program": "${workspaceFolder}/subarraySum.js"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Seq Maxima",
             "program": "${workspaceFolder}/subarraySum.js"
         },
         {
@@ -26,8 +19,8 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "teste reduce",
-            "program": "${workspaceFolder}/teste.js"
+            "name": "Flipe",
+            "program": "${workspaceFolder}/FlipTheBoolean.js"
         },
         {
             "type": "node",

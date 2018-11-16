@@ -15,7 +15,8 @@ function soma(a,b,c){
 
 
 var numeradores = [3,4,5,6,7] 
-const deno = 60
+const deno = 6
 const reescrita = d => e => e * d
 
 const num = numeradores.map(reescrita(deno))
+console.log(num)
