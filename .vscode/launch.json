@@ -13,20 +13,9 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "codekata",
-            "program": "${workspaceFolder}/CDeno.js"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Flipe",
-            "program": "${workspaceFolder}/FlipTheBoolean.js"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "sqrt",
-            "program": "${workspaceFolder}/sqrt.js"
+            "name": "code challange",
+            "program": "${workspaceFolder}/isFourLetters.js"
         }
+       
     ]
 }
