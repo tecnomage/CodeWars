@@ -6,4 +6,4 @@
     //console.log(Math.abs(arr[0]))
     console.log(saida2)
     return saida
-})([-1, -3, -5, -4, -10, 0])
+})([-1, -3])
