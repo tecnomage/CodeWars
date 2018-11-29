@@ -1,0 +1,450 @@
+[33mcommit 23895fdc5696286fb428fcbd9910e41c7174993b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Tue Nov 27 20:38:31 2018 -0200
+
+    mean.js
+
+[33mcommit e5705819646dac0e6bcef7258e3fb5fc67ea0dfe[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Fri Nov 23 18:43:00 2018 -0200
+
+    date resolvido
+
+[33mcommit 45d4d02cc427c45a4a24268328784d43d88c659a[m
+Merge: 7f424a6 d5883e1
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Fri Nov 23 14:29:23 2018 -0200
+
+    date
+
+[33mcommit d5883e11b2700281f6948459978eb75fda2c661d[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 21 19:28:03 2018 -0200
+
+    charcount
+
+[33mcommit 7f424a62b42564542743fcb33c4efa66b763495c[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 21 15:42:14 2018 -0200
+
+    comment do absSum
+
+[33mcommit c8f6ad68883715addb335604976b0eb383f0c0aa[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 21 15:24:40 2018 -0200
+
+    edabit
+
+[33mcommit f6a9f084b40f3721f09a75d6830913a003ac3a60[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 21 11:10:06 2018 -0200
+
+    novos testes
+
+[33mcommit 6a6e9eb1031657d914791e64fee55f9fcfc51562[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Nov 19 15:53:49 2018 -0200
+
+    edabit
+
+[33mcommit e365d15f1d660c2daf9da8bc0354cee5cee5221b[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Fri Nov 16 15:18:48 2018 -0200
+
+    edabit iniciais
+
+[33mcommit 493a2b3f08fbad2ffaba7eff7531bdc4d9f09b03[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Thu Nov 15 15:18:33 2018 -0200
+
+    CDeno ok
+
+[33mcommit beed6c0c0ef818d6e5704baebe28fe486bba2686[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 14 16:44:05 2018 -0200
+
+    teste (reduce)
+
+[33mcommit 53d3ae3ca03707b006978e0caa7ffd1a81b178ab[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 14 15:30:18 2018 -0200
+
+    CDeno evoluindo.
+
+[33mcommit 9411860a66846bcbf865efe1d1e4f62a68817af2[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 14 15:29:47 2018 -0200
+
+    lcm.js ok
+
+[33mcommit 03af815f50f8a896f7ac1e3a4e3293ee41024ee8[m
+Merge: ecce670 0ae69e6
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 14 04:56:44 2018 -0200
+
+    merge
+
+[33mcommit 0ae69e62452abb8b9ca63a3e8d0881f9279a1715[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Tue Nov 13 16:41:13 2018 -0200
+
+    CDeno indo
+
+[33mcommit b5f36bc0c947956e8b755070b388b22323fe5ba9[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Tue Nov 13 16:10:34 2018 -0200
+
+    alteracao dos codigos
+
+[33mcommit ecce6700a3086bc46cd52aa41d4698991fdea7b1[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Nov 12 20:17:49 2018 -0200
+
+    denominador quase ok
+
+[33mcommit 758234f528d24638b5feede2430a5d02e2dcd547[m
+Merge: e3ba62d 86ac0f5
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Nov 12 19:13:25 2018 -0200
+
+    merge
+
+[33mcommit e3ba62d73e70b9bb00db89d0ba4c02e7f9535fd3[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Nov 12 19:12:57 2018 -0200
+
+    merge
+
+[33mcommit 86ac0f52f37fd186e446d0274af924b625e723bc[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Nov 12 16:12:39 2018 -0200
+
+    inicio do common deminators
+
+[33mcommit c513a8ee9bbae018fa174b7d4cae3e13a7e634c3[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Fri Nov 9 17:07:40 2018 -0200
+
+    CommomDenominators
+
+[33mcommit aa2e3369544f9b51e5f28040ef413a78cf54e5bd[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Fri Nov 9 14:36:21 2018 -0200
+
+    aprendendo sempre
+
+[33mcommit 043947d11a4978819d55496df253fdfff8c255cb[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Thu Nov 8 16:55:25 2018 -0200
+
+    erro persiste
+
+[33mcommit ad0f5d4885c7cf3411a98379d0725203161e9687[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Thu Nov 8 14:59:37 2018 -0200
+
+    metade do caminho
+
+[33mcommit 73c31d52556e15ffd37da3d58428671ce1cd5045[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Thu Nov 8 04:55:02 2018 -0200
+
+    equeleto feito
+
+[33mcommit 194330deaed6ff88aa46739fabbacb342e6c47a6[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 7 19:19:08 2018 -0200
+
+    inicio do integer
+
+[33mcommit d20f2e870dfb72283d1dffcd367ee94dadfd0f9c[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 7 19:08:27 2018 -0200
+
+    inicio do integer
+
+[33mcommit 8b95e2d4a47353d13b6d7f5e7fcb0b8abafb87d6[m
+Merge: 965832e bf04687
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 7 17:37:00 2018 -0200
+
+    ok
+
+[33mcommit 965832e3a1708dc152791775ee125f5657576d2a[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 7 17:36:01 2018 -0200
+
+    ok
+
+[33mcommit bf046877dc6f155aea1b4df4311056d73f911d83[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 7 14:36:28 2018 -0200
+
+    codigo ok
+
+[33mcommit f44eb14d9e4433df2f6e042c5c4691d3a5483224[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 7 11:31:28 2018 -0200
+
+    quase ok
+
+[33mcommit d061592071b03798c30b69f1d8f0ead69607928e[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 7 11:31:05 2018 -0200
+
+    codigo ok, retorno nao
+
+[33mcommit cd2db20f234d4eb12e50275b2ee6c384cf8ad2a3[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 7 10:53:58 2018 -0200
+
+    corrigindo erros
+
+[33mcommit fadfb01a426cd9100b1e764e11e3a84564bfcc4f[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 7 10:50:35 2018 -0200
+
+    curriyng no if else
+
+[33mcommit d69e6e6978c18133625fa1b49fb0963c84afce8a[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Nov 7 07:35:37 2018 -0200
+
+    testcase quase ok
+
+[33mcommit af5bdc67789f194db5aa196aef0df4779684b08d[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Tue Nov 6 17:40:27 2018 -0200
+
+    correcao
+
+[33mcommit 2090bc84809a09244ec6feb90f5dfa6502e2a5fc[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Tue Nov 6 17:21:55 2018 -0200
+
+    quase ok
+
+[33mcommit 5ffdf81a109eff5f96f75b0f942edf57fd114a9d[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Nov 5 19:30:29 2018 -0200
+
+    exceptions
+
+[33mcommit 37a3be8591a23babfb83f8f9b229fac75294e59b[m
+Merge: 2effed2 2066ce4
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Nov 5 19:16:49 2018 -0200
+
+    merge
+
+[33mcommit 2effed230f34603cf4aae2ca65c68df01ba33d9a[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Nov 5 19:15:30 2018 -0200
+
+    todas mudancas
+
+[33mcommit 2066ce437efa59c955f5466005413b4d5f5fa9f6[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Nov 5 15:22:50 2018 -0200
+
+    remocao de comentarios
+
+[33mcommit fe592092669181ff4ae51e51ff7c0eb44b2e39be[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Nov 5 12:48:31 2018 -0200
+
+    alteracoes
+
+[33mcommit 739c788d88f6e554fb05ba176cd05232afd24ee9[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Nov 5 11:50:42 2018 -0200
+
+    alteracao no vowelBack
+
+[33mcommit d9db51e3c7cbc024351e304743d62ea8250535df[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Thu Nov 1 17:44:13 2018 -0300
+
+    vowel
+
+[33mcommit 11f306283ec58c070ed7ea213a3739126cb1f71a[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Thu Nov 1 02:39:33 2018 -0300
+
+    codekata vowelBack
+
+[33mcommit ba1072b1275c4e4ea587c8ced3587297d093227d[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Fri Oct 26 17:12:13 2018 -0300
+
+    alteracao no findOdd
+
+[33mcommit 7ac180423478f8c895be3d483b265cb5cefb364f[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Fri Oct 19 21:49:56 2018 -0300
+
+    entendendo o filter no findOdd
+
+[33mcommit 4a2e1a026e50bad266d711fce05f5b70c8374490[m
+Merge: 13fff02 e35a26f
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Fri Oct 19 19:10:46 2018 -0300
+
+    merge
+
+[33mcommit 13fff02206d3b2df05eec01fc1b94e3339e38008[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Fri Oct 19 19:07:36 2018 -0300
+
+    merge
+
+[33mcommit e35a26fba0d22b5aa6f44e2618fca6687c8a4a02[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Fri Oct 19 18:00:32 2018 -0300
+
+    findoDD
+
+[33mcommit 19ca583dcc387f11193a4bbc3c270409b9dad97e[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Fri Oct 19 17:50:23 2018 -0300
+
+    .length no find odds
+
+[33mcommit bcf8c1eb3c262ded845e39ab1e4650d425323913[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Fri Oct 19 17:09:19 2018 -0300
+
+    bitwise
+
+[33mcommit 23d8924b7127e5f3667ab123c77146ad609c777c[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Fri Oct 19 16:15:18 2018 -0300
+
+    findOdd ok
+
+[33mcommit 394b64e47f09b89b0b48b71e9c4609aa6bfb8d9e[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Thu Oct 18 17:36:04 2018 -0300
+
+    findOdd
+
+[33mcommit 17e47994c58fc7488fcdb1977312cfa0140ee9da[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Oct 17 16:32:09 2018 -0300
+
+    subArray alternatives
+
+[33mcommit 2b06062ac34781c0651fa3c2c245afe14c2476ac[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Oct 17 14:56:19 2018 -0300
+
+    baker resolvido
+
+[33mcommit a85c17166ec04048203eaa30c321a058a7506034[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Tue Oct 16 17:47:23 2018 -0300
+
+    quase ok
+
+[33mcommit 73ff5a3c06b40e468d0294b9cb5d916765c8f70c[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Tue Oct 16 17:26:26 2018 -0300
+
+    retornando o minimo corretamente
+
+[33mcommit ac0bfd44b526272d4671224123ad7cd5185c9f8b[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Oct 15 17:56:33 2018 -0300
+
+    inicio do desafio do baker
+
+[33mcommit e192b13ab20d8bf7d3d8e357d3695d7f4c057a9e[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Oct 15 17:45:19 2018 -0300
+
+    solucao mais sucinta
+
+[33mcommit 2e0c94598598b4f9fe276873798ae0bed5cdd51a[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Oct 15 17:19:41 2018 -0300
+
+    unique resolvido
+
+[33mcommit ceaf2e9bf522d101699b42201f081c1d60a51d42[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Oct 15 14:47:03 2018 -0300
+
+    alteracao do calculo da frequencia.
+
+[33mcommit d7807c3b38cca50a9edf7c12508354d0f4d0d183[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Sun Oct 14 21:10:23 2018 -0300
+
+    quase finalizado
+
+[33mcommit a77a4443ce4c953ed5fd6f9dd00db045da8cb9bb[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Sun Oct 14 20:21:20 2018 -0300
+
+    refatorando o unique
+
+[33mcommit 22e63b4420da1a5a2148e0c1dc4ce6e6b881df2f[m
+Merge: 925ac33 0745613
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Thu Oct 11 17:24:18 2018 -0300
+
+    unique
+
+[33mcommit 925ac33bed9c98245b4eea289284526604914ba5[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Thu Oct 11 10:27:12 2018 -0300
+
+    pre merge
+
+[33mcommit 07456133e8172b7939472387d55d40a624551f88[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Oct 10 21:19:54 2018 -0300
+
+    inicio do unique
+
+[33mcommit b37918a4466085f9fcd53d70855391e2ed0ed71e[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Oct 10 20:08:51 2018 -0300
+
+    High and Low Resolvido
+
+[33mcommit 083139f1dffea7acdcbb492104f9ca1b27db771f[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Oct 10 19:10:35 2018 -0300
+
+    even passou no teste
+
+[33mcommit b3292c71b01206a8664094b0026e71b57040adbd[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Wed Oct 10 19:05:06 2018 -0300
+
+    esta retornando a posicao corretamente
+
+[33mcommit 1fdb984d51b257322fb00c6c26d1f6386e97bc29[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Tue Oct 9 17:48:22 2018 -0300
+
+    split funcionando
+
+[33mcommit fca411df83e04de6f2445b9fdd26a427ac73c8f8[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Oct 8 20:56:15 2018 -0300
+
+    parseamento da string
+
+[33mcommit bcf9c81a11f898e38873b547da2673dbb97aaf98[m
+Author: tecnomage <tecnocratay@gmail.com>
+Date:   Mon Oct 8 20:33:20 2018 -0300
+
+    parseamento da string
+
+[33mcommit 508eeea38812b8c52d4b442e33b475f10c15303a[m
+Author: vini braga <tecnocratay@gmail.com>
+Date:   Mon Oct 8 20:32:15 2018 -0300
+
+    Initial commit
