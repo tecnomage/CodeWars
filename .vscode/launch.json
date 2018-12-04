@@ -14,8 +14,9 @@
             "type": "node",
             "request": "launch",
             "name": "code challange",
-            "program": "${workspaceFolder}/timeForMilkAndCookies.js"
+            "program": "${workspaceFolder}/isSymmetrical.js"
         }
        
     ]
 }
+

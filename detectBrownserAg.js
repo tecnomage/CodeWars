@@ -1,12 +1,19 @@
 (function detectBrowser(userAgent) {
   // "Internet Explorer" : ? "Mozilla Firefox" : "Google Chrome";
   //var re = /Mozilla (chap \d+(\.\d)*)/i;  
-  var re =  /google chrome| Firefox/i;
-  let str = userAgent.includes("Firefox");
+  var re = /FireFox|Chrome|.NET/gi;
   let userBrownser = re.exec(userAgent);
-  console.log(userBrownser);
-  console.log(str);
+  console.log(userBrownser[0]);
+  if(userBrownser[0] === "Chrome"){
+    return "Google Chrome"
+  }else if(userBrownser[0] === "Firefox"){
+    return "Mozilla Firefox"
+  }else if(userBrownser[0] === ".NET"){
+    return "Internet Explorer"
+  }
   //https://regexr.com/
   //console.log(userBrownser[0]);
 
-})("Firefox Mozilla/5.0 google chrome (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Firefox Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299")
+})("asdsadsa (Windows NT 10.0; Win64; x64) Microsoft AppleWebKit/537.36 (KHTML, like Gecko) Firefox Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299")
+
+
