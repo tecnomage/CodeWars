@@ -14,7 +14,7 @@
             "type": "node",
             "request": "launch",
             "name": "code challange",
-            "program": "${workspaceFolder}/validatePin.js"
+            "program": "${workspaceFolder}/alternateCaps.js"
         }
        
     ]
