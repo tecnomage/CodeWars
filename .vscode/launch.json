@@ -14,7 +14,7 @@
             "type": "node",
             "request": "launch",
             "name": "code challange",
-            "program": "${workspaceFolder}/makeTitle.js"
+            "program": "${workspaceFolder}/countOnesBinary.js"
         }
        
     ]
