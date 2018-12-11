@@ -18,3 +18,7 @@ function wurstIsBetter(str) {
 // Gurka
 // Snorkers
 // Pepperoni
+
+// function wurstIsBetter(str) {
+//     return str.replace(/kielbasa|chorizo|moronga|salami|sausage|andouille|naem|merguez|gurka|snorkers|pepperoni/gi, 'Wurst');
+//   }
