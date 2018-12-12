@@ -14,7 +14,7 @@ function wurstIsBetter(str) {
 // Sausage
 // Andouille
 // Naem
-// Merguez
+// Merguez 
 // Gurka
 // Snorkers
 // Pepperoni
