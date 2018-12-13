@@ -14,7 +14,7 @@
             "type": "node",
             "request": "launch",
             "name": "code challange",
-            "program": "${workspaceFolder}/verifySubStrs.js"
+            "program": "${workspaceFolder}/factorial.js"
         }
        
     ]
