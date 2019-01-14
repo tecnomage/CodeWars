@@ -5,20 +5,43 @@
 *  z argument: Item contained within each subarray(s).
  * */
 (function matrix(x, y, z) {
-    let arrays = [
-        new Array(y),
-        new Array(y),
-        new Array(y)
-    ]
-    
-    for (let i = 0; i < arrays.length; i++) {
-        let n = 0;
-        while (n < arrays[i].length) {
-            arrays[i].push(z)
-            n++;
+    let arrays = [0][0]=0//new Array(y).fill(z)
+    let num = x;
+    //     new Array(y).fill(z),
+    //     new Array(y).fill(z),
+    //     new Array(y).fill(z)
+    // ]
+
+    for (let i = 0; i < x; i++) {
+        for (let j = 0; j <= y; j++) {
+            //arrays.push([y].fill(z))
+            arrays[i][j]=2
+            //arrays.push(2)
         }
+
     }
+
     console.log(arrays)
-    console.log(arrays[0].length)
-    //console.log(arrays[0][0])
+    return arrays
 })(4, 5, 3)
+
+
+function matrix(x, y, z) {
+    return Array(x).fill(Array(y).fill(z));
+  }
+
+  function matrix(x, y, z) {
+    return Array(x).fill().map( m => Array(y).fill(z));
+}
+
+function matrix(x, y, z) {
+    iArr = []
+    oArr = []
+    for (let i = 0; i<y; i++){
+      iArr.push(z)
+    }
+    for (let i = 0; i<x; i++){
+      oArr.push(iArr)
+    }
+    return oArr
+  }

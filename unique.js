@@ -12,30 +12,30 @@
 
 
 
-const freq = function(arr) {
-  var a = [], b = [], prev, unico;
+const freq = function (arr) {
+    var a = [], b = [], prev, unico;
 
-  arr.sort();
-  //for(var j =0; j<b.length; j++){
-    for ( var i = 0; i < arr.length; i++ ) {
-        if ( arr[i] !== prev ) {
+    arr.sort();
+    //for(var j =0; j<b.length; j++){
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] !== prev) {
             a.push(arr[i]);
             b.push(1);
         } else {
-            b[b.length-1]++;
+            b[b.length - 1]++;
         }
         prev = arr[i];
-       
+
     }
-  //}
-  //
-  return [a,b];
+    //}
+    //
+    return [a, b];
 }
 
 var unico = (arr => {
- // var cont=arr.filter(unicos);
-  arr.sort((a,b)=>a-b);
-  return arr[0]==arr[1]?arr.pop():arr[0]
-})([2,2,2,2,2,3,3,3,3,5,500,5,5,5])
+    // var cont=arr.filter(unicos);
+    arr.sort((a, b) => a - b);
+    return arr[0] == arr[1] ? arr.pop() : arr[0]
+})([2, 2, 2, 2, 2, 3, 3, 3, 3, 5, 500, 5, 5, 5])
 
 console.log(unico)
