@@ -7,8 +7,8 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "ordem",
-            "program": "${workspaceFolder}/subarraySum.js"
+            "name": "3 args",
+            "program": "${workspaceFolder}/ArraySubArrays.js"
         },
         {
             "type": "node",
